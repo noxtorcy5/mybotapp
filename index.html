@@ -1,13 +1,45 @@
-<!-- index.html -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Mening Birinchi Saytim</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freelancer Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Salom, dunyo!</h1>
-  <button onclick="salom()">Bos!</button>
+  <header>
+    <h1>John Doe</h1>
+    <p>Web Developer & Designer</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>I create modern and responsive websites for businesses and individuals. Let's build something great together!</p>
+  </section>
+
+  <section class="services">
+    <h2>Services</h2>
+    <ul>
+      <li>Website Design</li>
+      <li>Frontend Development</li>
+      <li>Landing Pages</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="button" onclick="sendMessage()">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Izzatillo. All rights reserved.</p>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
