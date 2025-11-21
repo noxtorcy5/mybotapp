@@ -1,4 +1,4 @@
 // script.js
 function salom() {
-  alert("Salom, dasturchi!");
+  alert("Salom, botga xush kelibsiz!");
 }
